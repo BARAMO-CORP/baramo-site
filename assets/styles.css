@@ -146,3 +146,12 @@ footer a:hover { color: var(--blue); }
 .prose li { margin-bottom: 0.4em; }
 .prose a, .box a, .lead a { color: var(--blue-dark); }
 .prose address { font-style: normal; }
+
+/* Boutons des stores */
+.store-buttons { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 20px; }
+.store-button, .box a.store-button { display: inline-flex; align-items: center; gap: 12px; padding: 10px 20px 10px 16px; border-radius: 12px; background: var(--ink); color: #fff; text-decoration: none; line-height: 1.25; min-width: 190px; }
+.store-button:hover, .box a.store-button:hover { background: var(--blue); }
+.store-icon { width: 26px; height: 26px; flex-shrink: 0; }
+.store-button span { display: flex; flex-direction: column; }
+.store-button small { font-size: 12px; opacity: .75; }
+.store-button strong { font-size: 18px; }
